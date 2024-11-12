@@ -51,3 +51,16 @@ export const WorkingLeague = (
         matchupList
     }
 }
+
+export const Category = (
+    category,
+    description
+) => {
+    category = category;
+    description = description;
+
+    return {
+        category,
+        description
+    }
+}
